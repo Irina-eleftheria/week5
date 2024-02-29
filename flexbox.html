@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      p,
+      header,
+      main,
+      nav,
+      section,
+      aside,
+      footer {
+        border: 1px solid red;
+      }
+
+      header,
+      footer {
+        flex: 0 0 content;
+      }
+
+      main {
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+        justify-content: stretch;
+      }
+
+      body {
+        display: flex;
+        flex-flow: column;
+        min-height: 50vh;
+      }
+
+      nav {
+        width: 20vh;
+      }
+
+      aside {
+        width: 20vh;
+      }
+
+      section {
+        flex: 1;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Flexbox 🤩</h1>
+    <header class="header">Заголовок</header>
+    <main class="main">
+      <nav class="nav">Меню</nav>
+      <section class="section">Секция</section>
+      <aside class="aside">Сбоку</aside>
+    </main>
+    <footer class="footer">Футер</footer>
+  </body>
+</html>
