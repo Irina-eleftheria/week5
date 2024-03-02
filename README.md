@@ -7,9 +7,9 @@
 - Flexbox - flexbox.html
 
 ### Домашнее задание  
-- [ ] Тест
-- [ ] Задание 1 - Игра https://flexboxfroggy.com/#ru
-- [ ] Задание 2 - Верстка странички
+- [x] Тест
+- [x] Задание 1 - Игра https://flexboxfroggy.com/#ru
+- [x] Задание 2 - Верстка странички (dz_task2.html)
 - [ ] Задание 3 - Волшебная фотогалерея
 - [ ] Задание * - Игра http://www.flexboxdefense.com/
 - [x] Soft Skills
