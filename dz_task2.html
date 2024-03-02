@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body,
+      header,
+      main,
+      footer {
+        display: flex;
+        flex-direction: column;
+        font-size: 17px;
+        font-weight: bolder;
+      }
+      header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: lightgray;
+        padding: 20px;
+      }
+      main {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: 25vh;
+        flex-shrink: 1;
+      }
+      .maincontainer {
+        background-color: yellow;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: calc(100% - (100% / 3));
+        height: 25vh;
+      }
+      .mainpart {
+        display: flex;
+        padding: 10px;
+      }
+      .mainsec {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 30px;
+        padding: 20px;
+        width: 85%;
+      }
+      .supl {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: space-between;
+        width: 85%;
+        background-color: lightyellow;
+        padding: 20px;
+      }
+      .suplbig {
+        display: flex;
+        justify-content: center;
+        width: 85%;
+        background-color: lightyellow;
+        padding: 20px;
+      }
+      footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: lightgrey;
+      }
+      .footarea {
+        background-color: azure;
+        padding: 20px;
+      }
+      aside {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: darkseagreen;
+        height: 25vh;
+        width: calc(100% / 3);
+      }
+    </style>
+  </head>
+  <body>
+    <header>[Шапка страницы]</header>
+    <main>
+      <div class="maincontainer">
+        <div class="mainpart">[Основная часть]</div>
+        <section class="mainsec">
+          <div class="supl">[Ещё 1]</div>
+          <div class="supl">[Ещё 2]</div>
+        </section>
+        <div class="suplbig">[Ещё 3]</div>
+      </div>
+      <aside>[Боковая область]</aside>
+    </main>
+    <footer>
+      <section class="footarea">[Секция футера 1]</section>
+      <section class="footarea">[Секция футера 2]</section>
+      <section class="footarea">[Секция футера 3]</section>
+      <section class="footarea">[Секция футера 4]</section>
+    </footer>
+  </body>
+</html>
