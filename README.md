@@ -9,7 +9,7 @@
 ### Домашнее задание  
 - [x] Тест
 - [x] Задание 1 - Игра https://flexboxfroggy.com/#ru
-- [x] Задание 2 - Верстка странички dz_task2.html
+- [x] Задание 2 - Верстка странички (dz_task2.html)
 - [ ] Задание 3 - Волшебная фотогалерея
 - [ ] Задание * - Игра http://www.flexboxdefense.com/
 - [x] Soft Skills
