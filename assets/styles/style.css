@@ -1,0 +1,175 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+.header,
+.footer {
+    background-color: rgba(127, 255, 212, 0.5);
+}
+.wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1170px;
+    margin: 0 auto;
+    position: relative;
+}
+/*меню навигации*/
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10px 15px 10px;
+}
+.logoimg {
+    width: 100px;
+    height: 100px;
+}
+.navmenu {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.navmenu>li {
+    padding-left: 22px;
+    margin-left: 22px;
+}
+.navmenu>li>a:hover {
+    color: #FF6464;
+}
+.navmenu>li>a {
+    text-decoration: none;
+    color: black;
+}
+/*основная часть*/
+.mainpart {
+    padding: 60px 0px 60px 0px;
+}
+/*изображение в основной части*/
+.book {
+    width: 500px;
+    position: absolute;
+    right: 10px;
+    border-radius: 10%;
+    top: -10px;
+}
+/*надписи в основной части*/
+.title {
+    font-size: 45px;
+    margin-bottom: 30px;
+    max-width: 600px;
+}
+.description {
+    font-size: 25px;
+    line-height: 30px;
+    max-width: 600px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 30px;
+}
+/*кнопка узнать больше*/
+.getmore {
+    display: block;
+    text-decoration: none;
+    background-color: rgba(127, 255, 212, 0.5);
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border: 1px solid rgba(127, 255, 212, 0.5);
+    border-radius: 50%;
+    padding: 16px 32px 16px 32px;
+    max-width: 190px;
+}
+.getmore:hover {
+    color: #FF6464;
+}
+/*надписи в блоке с галереей*/
+.galleryh2 {
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.galleryp {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+/*позиционирование галереи*/
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+/*увеличение изображения при наведении*/
+.galleryimg {
+    width: 450px;
+    height: 350px;
+    margin: 10px;
+    transition: 1s;
+}
+.galleryimg:hover {
+    transform: scale(1.2);
+}
+/*надписи к картинкам галереи*/
+.imgbox {
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    font-family: "Roboto", sans-serif;
+}
+/*кнопка купить*/
+.buylink {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    background-color: rgba(127, 255, 212, 0.5);
+    text-transform: uppercase;
+    border: 1px solid rgba(127, 255, 212, 0.5);
+    border-radius: 50%;
+    padding: 16px 32px 16px 32px;
+    max-width: 190px;
+}
+.buylink:hover {
+    color: #FF6464;
+}
+/*футер*/
+.footer {
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0px 25px 0px;
+
+}
+.footmenu {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    list-style-type: none;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.footmenu>li {
+    padding-left: 22px;
+    margin-left: 22px;
+}
+.footmenu>li>a:hover {
+    color: #FF6464;
+}
+.footmenu>li>a {
+    text-decoration: none;
+    color: black;
+}
+.footp {
+    text-align: center;
+}
+
